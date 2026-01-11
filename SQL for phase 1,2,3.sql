@@ -192,3 +192,6 @@ ORDER BY
     md.chembl_id, 
     ass.confidence_score DESC, -- Prioritize most confident data
     act.standard_value ASC;
+
+    SELECT u.id, u.firstname, u.lastname
+    from users u
