@@ -1,1 +1,1 @@
-# ar_IC50dataset
+# ChEMBL36 Androgen receptor data curation
