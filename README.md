@@ -1,4 +1,4 @@
-# ChEMBL36 Androgen receptor data curation
+
 # Androgen Receptor IC50 Assay Concordance Analysis
 
 ## Overview
@@ -59,17 +59,9 @@ The workflow generates:
 
 ---
 
-## Main Functions
-
-### `gather_data(engine, ...)`
-Queries and curates ChEMBL biochemical assay data and returns overlapping assay pairs suitable for concordance analysis.
-
-### `show_comparison(pts, title=...)`
-Performs statistical analysis, generates visualisations, and prints summary metrics.
-
 ---
 
 ## Usage
-```python
-data_points = gather_data(engine)
-show_comparison(data_points)
+Python Packages
+```bash
+pip install pandas numpy matplotlib scipy scikit-learn sqlalchemy
